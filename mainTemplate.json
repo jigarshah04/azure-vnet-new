@@ -150,7 +150,7 @@
         "artifactsBaseUrl": "",
         "description": "URL to acquire other VM-Series for Azure templates"
       },
-      "defaultValue": "https://github.com/PaloAltoNetworks/azure-new"
+      "defaultValue": "https://raw.githubusercontent.com/jigarshah04/azure-vnet-new/master"
     },
     "PublicIPNewOrExisting": {
       "type": "string",
