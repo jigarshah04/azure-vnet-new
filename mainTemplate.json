@@ -32,7 +32,7 @@
           "Standard_A4"
        ],
        "metadata": {
-          "description": "Azure VM size for VM-Series"
+          "description": "Azure VM size for VM-Series. Ensure that this size is available in your selected Azure location."
        },
        "defaultValue": "Standard_D3"
     },
