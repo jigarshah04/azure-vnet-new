@@ -80,10 +80,10 @@
                 "osDisk": {
                     "name": "osdisk",
                     "vhd": {
-                        "uri": "[concat(reference(concat(‘Microsoft.Storage/storageAccounts/’, parameters(‘storageAccountName’)), ‘2015-06-15’).primaryEndpoints.blob,‘/vhds/’,parameters('vmName'), '-', parameters('imageOffer'), '-', parameters('imageSku'),’.vhd’)]"
-                    },
-                    "caching": "ReadWrite",
-                    "createOption": "FromImage"
+                        "uri": "[concat(reference(concat('Microsoft.Storage/storageAccounts/', parameters('storageAccountName')), '2015-06-15').primaryEndpoints.blob, '/vhds/', parameters('vmName'), '-', parameters('imageOffer'), '-', parameters('imageSku'), '.vhd')]"
+                }, 
+                "caching": "ReadWrite",
+                "createOption": "FromImage"
                 }
             },
             "networkProfile": {
