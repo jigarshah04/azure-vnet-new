@@ -34,7 +34,7 @@
        "metadata": {
           "description": "Azure VM size for VM-Series. Ensure that this size is available in your selected Azure location."
        },
-       "defaultValue": "Standard_D3"
+       "defaultValue": "Standard_D3_v2"
     },
     "virtualNetworkName": { 
       "type": "string",
