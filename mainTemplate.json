@@ -234,7 +234,7 @@
   "variables": {
     "imagePublisher": "paloaltonetworks",
     "imageSku" : "byol",
-    "imageOffer" : "vmseries1",
+    "imageOffer" : "vmseries1-preview",
     "nsgName" : "DefaultNSG",
     "nicName": "[concat(parameters('vmName'), '-eth')]",
     "FWPrivateIPAddressUntrust": "[parameters('subnet1StartAddress')]",
